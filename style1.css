@@ -1,0 +1,219 @@
+body{
+  margin:0;
+  width: auto;
+  height: 600px;
+  background: #FFF7D4;
+}
+.topnov{
+  width: auto;
+  height: 71px;
+  flex-shrink: 0;
+  background: #FFD95A;
+  display: flex; 
+  align-items: center;
+}
+.left{
+  margin-left: 835px;
+}
+.topnov a{
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  text-decoration: none; 
+  color: #000; 
+  margin-right: 20px; 
+}
+.topnov a:hover{
+  opacity: 0.8;
+  color:#4c411b;
+}            
+button{
+  width: 150px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 100px;
+  background: #4C411B;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 930px;
+}
+.title{
+  width: 768px;
+  margin-left: 250px;
+}
+.title h1{
+  color: #000;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title h2{
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+}
+.title img{
+  width: 403px;
+  height: 280px;
+  flex-shrink: 0;
+  margin-left: 1098px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+.titleimages{
+  width: 383px;
+  transform: rotate(-15deg);
+  height: 221px;
+  flex-shrink: 0;
+  margin-left: 1098px;
+  position: absolute;
+  top: 64px;
+  right: 1050;
+}
+footer{
+  width: auto;
+  height: 212px;
+  flex-shrink: 0;
+  background: #4C411B;
+}
+h3{
+  color: #665724;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+#score {
+  font-family: 'Rubik', sans-serif;
+  border-collapse: collapse;
+  width: 1221.688px;
+  margin-left:217.31px;
+}
+
+#score td, #score th {
+  border: 0px solid none;
+  padding: 8px;
+  align-items: center;
+}
+
+#score tr:nth-child(even){background-color: #ffffff;}
+
+#score tr:hover {background-color: #FFDD6B;}
+
+#score th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: linear-gradient(180deg, #FFDD6B 0%, rgba(255, 221, 107, 0.63) 51.04%, rgba(255, 221, 107, 0.63) 88.54%, rgba(255, 221, 107, 0.00) 100%);;
+  color: #000;
+}
+.copyright_text{
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 104px;
+}
+.sub_topic{
+  color: #6F4439;
+  margin-left: 37px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#user_score {
+  font-family: 'Rubik', sans-serif;
+  border-collapse: collapse;
+  width: 1221.688px;
+  margin-left:217.31px;
+}
+#user_score td, #user_score th {
+  border: 0px solid none;
+  padding: 8px;
+  align-items: center;
+}
+
+#user_score tr:nth-child(even){background-color: #ffffff;}
+
+#user_score tr:hover {background-color: #FFDD6B;}
+
+#user_score th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: linear-gradient(180deg, #FFDD6B 0%, rgba(255, 221, 107, 0.63) 51.04%, rgba(255, 221, 107, 0.63) 88.54%, rgba(255, 221, 107, 0.00) 100%);;
+  color: #000;
+}
+.container_img{
+  position: absolute;
+  width: 211px;
+  height: 362px;
+  flex-shrink: 0;
+  background: url(spaseman.png), #FFF7D4 50% / cover no-repeat;
+  left: 0;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+.icon{ 
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+.twitter{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TwitterX.png), #4C411B 50% / contain no-repeat;
+}
+.facebook{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Facebook.png), #4C411B 50% / contain no-repeat;
+}
+.linkedln{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(LinkedIn.png), #4C411B 50% / contain no-repeat;
+}
+.instargram{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Instagram.png), #4C411B 50% / contain no-repeat;
+}
+.tiktok{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TikTok.png), #4C411B 50% / contain no-repeat;
+}

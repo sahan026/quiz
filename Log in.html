@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="loginstyle.css"> 
+</head>
+<body>
+    <div class="topnov">
+        <div class="left">
+            <a href="#home.html">Home</a>
+        </div>
+        <div class="right">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        </div>
+    </div><br><center>
+    <div class="title">
+      
+        <center><h1><font color="red">A</font><font color="green">B</font>C<font color="#4C411B"> L</font><font color="blue">K</font></h1></center><br>
+    </div>
+</center>
+<main>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <input type="submit"value="Log In">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</main>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<main>
+<div class="animated-element3">
+  <div class="responsive">
+    <div class="gallery">
+      <a href="your-link-here">
+        <button class="btn">FOR TEACHERS</i></button>
+    </a>
+      <a target="_blank" href="teacher.png">
+        <img src="teacher.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc1"><h3>For teachers</h3>
+
+        <p><i>Transform your teaching with time-saving tools</i></p></div>
+        <div class="desc2">
+        <p>Get the all-in-one engagement, teaching, assessment, and review tool loved by millions around the world.</p></div>
+
+    </div>
+  </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElement = document.querySelector('.animated-element3');
+      const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  animatedElement.classList.add('active');
+                  observer.unobserve(entry.target);
+              }
+          });
+      }); 
+      observer.observe(animatedElement);
+  });
+  </script>
+  <div class="animated-element4">
+  <div class="responsive">
+    <div class="gallery">
+      <a href="your-link-here">
+        <button class="btn"> FOR STUDENTS</i></button>
+    </a>
+      <a target="_blank" href="student.png">
+        <img src="student.png" alt="Forest" width="600" height="600">
+      </a>
+      <div class="desc1"><h3>For Students</h3>
+
+        <p><i>Power up your grades with next-gen study tools</i></p></div>
+        <div class="desc2">
+        <p>Unleash your learning potential using flashcards, study groups, goal setting, and our latest AI-enhanced features!</p></div>
+    </div>
+  </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElement = document.querySelector('.animated-element4');
+      const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  animatedElement.classList.add('active');
+                  observer.unobserve(entry.target);
+              }
+          });
+      });
+      observer.observe(animatedElement);
+  });
+  </script>
+<div class="animated-element5">
+  <div class="responsive">
+    <div class="gallery">
+      <a href="your-link-here">
+        <button class="btn">FOR PROFESSIONAL</i></button>
+    </a>
+      <a target="_blank" href="Professional.png">
+        <img src="Professional.png" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc1"><h3>For professional</h3>
+
+        <p><i>Connect your colleagues with awesome events</i></p></div>
+        <div class="desc2">
+        <p>Bring teams together by hosting impactful meetings, training, and end-of-year celebrations.</p></div>
+
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const animatedElement = document.querySelector('.animated-element5');
+      const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  animatedElement.classList.add('active');
+                  observer.unobserve(entry.target);
+              }
+          });
+      });
+
+      observer.observe(animatedElement);
+  });
+  </script>
+<div class="animated-element7">
+<div class="responsive">
+<div class="gallery">
+  <a href="your-link-here">
+    <button class="btn">FOR FAMILY & FRIENDS</i></button>
+</a>
+  <a target="_blank" href="family.png">
+    <img src="family.png" alt="Northern Lights" width="600" height="400">
+  </a>
+
+  <div class="desc1"><h3>For Family & Friends</h3>
+
+    <p><i>Host get-togethers that create lasting memories</i></p></div>
+    <div class="desc2">
+    <p>Host exciting get-togethers! Tap into premium ready-to-play games or easily create your own using AI.</p></div>
+
+  
+</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const animatedElement = document.querySelector('.animated-element7');
+  const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              animatedElement.classList.add('active');
+              observer.unobserve(entry.target);
+          }
+      });
+  });
+  observer.observe(animatedElement);
+});
+</script>
+  <br>
+  </main>
+</body>
+</html>

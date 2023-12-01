@@ -1,0 +1,394 @@
+body{
+  margin:0;
+  width: auto;
+  height: 600px;
+  background: #FFF7D4;
+}
+.topnov{
+  width: auto;
+  height: 71px;
+  flex-shrink: 0;
+  background: #FFD95A;
+  display: flex; 
+  align-items: center;
+}
+.left{
+  margin-left: 835px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right button {
+    margin-left: 548px;
+}
+.topnov a{
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  text-decoration: none; 
+  color: #000; 
+  margin-right: 20px; 
+}
+.topnov a:hover{
+  opacity: 0.8;
+  color:#4c411b;
+}
+.title{ 
+  align-items: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+input[type=submit]{
+    width: 129px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #4C411B;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container1 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #E2DDCA;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 540px;
+  height: auto;
+  flex-shrink: 0; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.animated-element3 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.animated-element3.active {
+  opacity: 1.5;
+  transform: translateY(0);
+}
+.animated-element4 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.animated-element4.active {
+  opacity: 1.5;
+  transform: translateY(0);
+}
+.animated-element5 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.animated-element5.active {
+  opacity: 1.5;
+  transform: translateY(0);
+}
+.animated-element6 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.animated-element6.active {
+  opacity: 1.5;
+  transform: translateY(0);
+}
+.animated-element7{
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 2.5s ease, transform 2.5s ease;
+}
+
+.animated-element7.active {
+  opacity: 1.5;
+  transform: translateY(0);
+}
+.img-container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  max-width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .img-container img {
+    /* Adjust styles for smaller screens */
+    width: 100%; /* Make the image width 100% to fill the container */
+    height: auto; /* Allow the height to adjust proportionally */
+  }
+}
+
+  div.gallery {
+    background-color: #04AA6D;
+    width: 99%;
+    border: none;
+    border-top:5px solid rgb(0, 0, 0); /* Hide top border */
+    border-right: 5px solid rgb(0, 0, 0); /* Hide right border */
+    border-left: 5px solid rgb(0, 0, 0); /* Hide left border */
+    border-bottom: 5px solid rgb(0, 0, 0); /* Set bottom border */
+    transition: transform 1s ease-in-out;
+  }
+  
+  div.gallery:hover {
+    color:rgb(253, 244, 244);
+    border: 5px solid aqua;
+    transform: scale(0.9);
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 30%;
+  }
+  
+  div.desc1 {
+    padding: 15px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  div.desc2 {
+    padding: 15px;
+    text-align: left;
+    color:rgb(0, 0, 0);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    justify-content: space-between;
+  
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }  
+  main {
+    flex: 1; /* Allow the main content to grow and take remaining space */
+  }
+  
+  /* Sticky footer styles */
+  footer {
+    width: 100%;
+    height: 212px;
+    background: #4C411B;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+.copyright_text{
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 104px;
+}
+.container_img{
+  position: absolute;
+  width: 211px;
+  height: 362px;
+  flex-shrink: 0;
+  background: url(spaseman.png), #FFF7D4 50% / cover no-repeat;
+  left: 0;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+.icon{ 
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+.twitter{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TwitterX.png), #4C411B 50% / contain no-repeat;
+}
+.facebook{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Facebook.png), #4C411B 50% / contain no-repeat;
+}
+.linkedln{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(LinkedIn.png), #4C411B 50% / contain no-repeat;
+}
+.instargram{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Instagram.png), #4C411B 50% / contain no-repeat;
+}
+.tiktok{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TikTok.png), #4C411B 50% / contain no-repeat;
+}
+.btn {
+  background-color:#4C411B;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  font-size: 28px;
+  cursor: pointer;
+  }
+
+  .title h1{
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+  }
