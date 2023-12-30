@@ -1,10 +1,12 @@
 body{
+  font-family: 'Rubik', sans-serif;
   margin:0;
   width: auto;
   height: 600px;
   background: #FFF7D4;
 }
 footer {
+  font-family: 'Rubik', sans-serif;
   width: auto;
   height: 212px;
   flex-shrink: 0;
@@ -12,6 +14,7 @@ footer {
   margin-top: auto;
 }
 .copyright_text{
+  
   color: #FFF;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
@@ -77,6 +80,7 @@ footer {
   background: linear-gradient(180deg, #FF725E 0%, rgba(217, 217, 217, 0.00) 100%);
 }
 .container1{
+  font-family: 'Rubik', sans-serif;
   display: flex;
   width: 1107px;
   height:491px;
@@ -91,6 +95,7 @@ footer {
 }
 
 .container2{
+  font-family: 'Rubik', sans-serif;
   display: flex;
 }
 /* Common styling for all buttons */
@@ -114,6 +119,7 @@ button {
 
 /* Styling for the 'Next' button */
 .nextbtn {
+  font-family: 'Rubik', sans-serif;
   margin-left: 9px;
   width: 177px;
   background: #C07F00;
@@ -121,6 +127,7 @@ button {
 
 /* Styling for the 'Quit' button */
 .quit {
+  font-family: 'Rubik', sans-serif;
   margin-left: 650px; /* Adjust the margin as needed */
   width: 177px;
   background: #A6A6A6;
@@ -128,6 +135,7 @@ button {
 
 /* Styling for the 'Previous' button */
 .previous {
+  font-family: 'Rubik', sans-serif;
   margin-left: 150px; /* Adjust the margin as needed */
   width: 228px;
   background: #21A400;
@@ -143,8 +151,8 @@ button:hover{
 }
 
 .question {
+  font-family: 'Rubik', sans-serif;
   color: #EBEBEB;
-  font-family: Rubik;
   font-size: 39px;
   font-style: normal;
   font-weight: 700;
@@ -160,7 +168,7 @@ button:hover{
   text-align: justify;
   gap: 10px;
   color: #191609;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
